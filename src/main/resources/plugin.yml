@@ -1,0 +1,16 @@
+name: SellGUI
+version: '${project.version}'
+main: com.sellgui.SellGUI
+api-version: '1.21'
+depend: [Vault]
+softdepend: [Essentials]
+description: Sell dialog using Vault economy.
+commands:
+  sell:
+    description: Sell dialog using Vault economy.
+    usage: /sell
+    permission: sellgui.use
+permissions:
+  sellgui.use:
+    description: Sell dialog using Vault economy.
+    default: true
